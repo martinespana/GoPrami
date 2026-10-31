@@ -1,0 +1,13 @@
+{
+  "name": "goprami",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prami bilingual static website",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=22 <25"
+  }
+}
