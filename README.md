@@ -37,3 +37,5 @@ Después de actualizar el repositorio, reintentar el despliegue en Hostinger. Ta
 
 ## Revisión antes de publicación · 2 de noviembre de 2026
 Cifras y posicionamiento B2B confirmados por el propietario. El chat del paso 02 expone su contenido a lectores de pantalla y se identifica como ejemplo ilustrativo. Compilación, traducciones e interacciones revisadas antes del commit.
+
+Se versionan los enlaces a CSS/JS en el HTML para evitar mezclar una página nueva con traducciones o estilos antiguos retenidos en caché. Actualizar el identificador de versión al publicar futuros cambios en estos archivos.
