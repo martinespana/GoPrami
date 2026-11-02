@@ -1,6 +1,6 @@
 # Prami · Evaluación de crédito para personas
 
-Sitio responsive ES/EN inspirado en Kita con el design system de Prami. Posicionamiento actualizado: reúne tareas de entrevista, evaluación psicométrica y análisis de riesgo, que las microfinancieras realizan en días, en una videollamada IA de 30 minutos. Crédito para personas, especialmente sin historial; no financiación empresarial.
+Sitio responsive ES/EN inspirado en Kita con el design system de Prami. Posicionamiento actualizado: reúne tareas de entrevista, evaluación psicométrica y análisis de riesgo, que las microfinancieras realizan en días, en una videollamada IA de 30 minutos. Producto B2B: underwriting con IA para entidades de crédito que evalúan a personas sin historial crediticio. Respaldado por la operación de crédito propia de Prami en Colombia desde 2023.
 
 Las entidades citadas en la conversación son referencias del proceso tradicional, no se presentan como clientes, aliados o avalistas. No se afirma diagnóstico clínico o psicológico ni una aprobación garantizada. La duración de 30 minutos proviene del usuario.
 
@@ -12,8 +12,8 @@ Casos ficticios, sin datos personales reales, cámara, micrófono, videollamadas
 
 El usuario confirmó que la videollamada incluye evaluación psicométrica. El demo explica esa etapa sin administrar pruebas ni atribuir instrumentos, puntajes o validaciones no proporcionadas.
 
-## Imagen del paso 02
-Imagen facilitada por el usuario, conservada íntegra en `dist/assets/prami-whatsapp-videollamada.jpeg`. Sustituye la conversación ilustrativa y se adapta al ancho disponible. El texto incorporado en el archivo permanece en español; pie y alternativa accesible son bilingües.
+## Paso 02: WhatsApp y videollamada
+Bloque construido en HTML/CSS (`.call-flow` en `dist/styles.css`) en lugar de una imagen con texto incrustado, para que todo su texto cambie con el selector de idioma. La foto, entregada por el propietario (recortada para excluir la marca Bosch), está en `dist/assets/prami-cliente-videollamada.jpg`. El número de cédula del chat es ficticio.
 
 ## Despliegue en Hostinger desde GitHub
 
@@ -34,3 +34,6 @@ Configuración:
 La compilación valida el HTML de entrada, la presencia de sus archivos locales y la sintaxis de los scripts. `dist/` contiene los archivos fuente listos para publicar y debe permanecer versionado. No hay variables de entorno obligatorias.
 
 Después de actualizar el repositorio, reintentar el despliegue en Hostinger. También se puede alojar directamente el contenido de `dist/` como sitio HTML estático.
+
+## Revisión antes de publicación · 2 de noviembre de 2026
+Cifras y posicionamiento B2B confirmados por el propietario. El chat del paso 02 expone su contenido a lectores de pantalla y se identifica como ejemplo ilustrativo. Compilación, traducciones e interacciones revisadas antes del commit.
