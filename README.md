@@ -39,3 +39,6 @@ Después de actualizar el repositorio, reintentar el despliegue en Hostinger. Ta
 Cifras y posicionamiento B2B confirmados por el propietario. El chat del paso 02 expone su contenido a lectores de pantalla y se identifica como ejemplo ilustrativo. Compilación, traducciones e interacciones revisadas antes del commit.
 
 Se versionan los enlaces a CSS/JS en el HTML para evitar mezclar una página nueva con traducciones o estilos antiguos retenidos en caché. Actualizar el identificador de versión al publicar futuros cambios en estos archivos.
+
+## Versiones completas por idioma
+La compilación genera `dist/en/index.html` con el contenido inglés ya renderizado, incluidos el chat, el formulario, el pie y los metadatos. El selector navega entre `/` y `/en/`, conserva la sección y recuerda la preferencia. `dist/index.html` es la fuente española; el contenido de las pestañas sigue traduciéndose con `dist/i18n.js`. Ejecutar `npm run build` tras cambiar textos o traducciones. El archivo inglés generado se incluye en el repositorio para permitir previews estáticos.
